@@ -7,17 +7,18 @@ This is a complete **Machine Learning API** built using **FastAPI**, containeriz
 ---
 
 ## 📦 Project Structure
-├── dockerfile # Dockerfile to containerize the FastAPI app
-├── .dockerignore # Ignore unnecessary files during Docker build
-├── ml.ipynb # Jupyter notebook to train and test ML model
-├── main.py # FastAPI app with endpoint(s)
-├── requirements.txt # Python dependencies
-├── pyproject.toml # Optional project metadata
-├── uv.lock # Optional lock file (used with uv tool)
+```
+├── dockerfile              # Dockerfile to containerize the FastAPI app  
+├── .dockerignore           # Ignore unnecessary files during Docker build  
+├── ml.ipynb                # Jupyter notebook to train and test ML model  
+├── main.py                 # FastAPI app with endpoint(s)  
+├── requirements.txt        # Python dependencies  
+├── pyproject.toml          # Optional project metadata  
+├── uv.lock                 # Optional lock file (used with uv tool)  
 ├── schema/
-│ └── schema.py # Pydantic models for request/response validation
-└── README.md # Project documentation
-
+│   └── schema.py           # Pydantic models for request/response validation  
+└── README.md               # Project documentation  
+```
 ## 🚀 How to Run the Project
 # Pull the image from Docker Hub
 docker pull mohitjoshi906/fastapi-app:v1
