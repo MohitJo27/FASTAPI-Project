@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+.python-version
+
+# Lock file - optional, if you're syncing it anyway in Dockerfile
+# You can comment this line if you're copying uv.lock intentionally
+# uv.lock
+
+# Data files (if you don't want to copy raw data)
+# If insurance.csv is used in API inference, then DON'T ignore data folder
+# If it's used only for training, you can ignore it:
+data/
+
+# Misc [.DS_Store] will not affect your Windows system at all — but it protects your project if any Mac user opens it.
+.DS_Store 
+.git
+.gitignore
+README.md
